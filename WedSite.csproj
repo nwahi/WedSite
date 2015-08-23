@@ -51,47 +51,38 @@
     <Reference Include="System.Web.ApplicationServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\css\ie9.css" />
-    <Content Include="Assets\css\images\bg01.jpg" />
-    <Content Include="Assets\css\images\bg02.jpg" />
-    <Content Include="Assets\css\images\bg03.jpg" />
-    <Content Include="Assets\css\images\bg04.jpg" />
-    <Content Include="Assets\css\images\bg04.png" />
-    <Content Include="Assets\css\images\icon-checkmark.png" />
-    <Content Include="Assets\css\main.css" />
-    <Content Include="Assets\js\ie\html5shiv.js" />
-    <Content Include="Assets\js\ie\respond.min.js" />
-    <Content Include="Assets\js\jquery.min.js" />
-    <Content Include="Assets\js\main.js" />
-    <Content Include="Assets\js\skel-viewport.min.js" />
-    <Content Include="Assets\js\skel.min.js" />
-    <Content Include="Assets\js\util.js" />
-    <Content Include="Engagement.aspx" />
-    <Content Include="Home.aspx" />
-    <Content Include="Images\banner.jpg" />
-    <Content Include="Images\pic01.jpg" />
-    <Content Include="Images\pic02.jpg" />
-    <Content Include="Images\pic03.jpg" />
-    <Content Include="Images\pic04.jpg" />
-    <Content Include="Images\pic05.jpg" />
-    <Content Include="Images\pic06.jpg" />
-    <Content Include="Images\pic07.jpg" />
-    <Content Include="Images\pic08.jpg" />
-    <Content Include="Mehandi.aspx" />
-    <Content Include="music\4%28mp3pk.com%29.mp3" />
-    <Content Include="music\chowki.mp3" />
-    <Content Include="music\home.mp3" />
-    <Content Include="music\mehandi.mp3" />
-    <Content Include="music\sagai.mp3" />
-    <Content Include="music\sangeet.mp3" />
-    <Content Include="music\wedding.mp3" />
-    <Content Include="Sangeet.aspx" />
-    <Content Include="Styles\Custom.css" />
-    <Content Include="Styles\Site.css" />
-    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
-    <Content Include="Scripts\jquery-1.4.1.js" />
-    <Content Include="Scripts\jquery-1.4.1.min.js" />
-    <Content Include="Chowki.aspx" />
+    <Content Include="PradayaWedsGaurav\Assets\css\ie9.css" />
+    <Content Include="PradayaWedsGaurav\Assets\css\images\bg01.jpg" />
+    <Content Include="PradayaWedsGaurav\Assets\css\images\bg02.jpg" />
+    <Content Include="PradayaWedsGaurav\Assets\css\images\bg03.jpg" />
+    <Content Include="PradayaWedsGaurav\Assets\css\images\bg04.jpg" />
+    <Content Include="PradayaWedsGaurav\Assets\css\images\bg04.png" />
+    <Content Include="PradayaWedsGaurav\Assets\css\images\icon-checkmark.png" />
+    <Content Include="PradayaWedsGaurav\Assets\css\main.css" />
+    <Content Include="PradayaWedsGaurav\Assets\js\ie\html5shiv.js" />
+    <Content Include="PradayaWedsGaurav\Assets\js\ie\respond.min.js" />
+    <Content Include="PradayaWedsGaurav\Assets\js\jquery.min.js" />
+    <Content Include="PradayaWedsGaurav\Assets\js\main.js" />
+    <Content Include="PradayaWedsGaurav\Assets\js\skel-viewport.min.js" />
+    <Content Include="PradayaWedsGaurav\Assets\js\skel.min.js" />
+    <Content Include="PradayaWedsGaurav\Assets\js\util.js" />
+    <Content Include="PradayaWedsGaurav\Engagement.aspx" />
+    <Content Include="PradayaWedsGaurav\Home.aspx" />
+    <Content Include="PradayaWedsGaurav\Mehandi.aspx" />
+    <Content Include="PradayaWedsGaurav\music\chowki.mp3" />
+    <Content Include="PradayaWedsGaurav\music\home.mp3" />
+    <Content Include="PradayaWedsGaurav\music\mehandi.mp3" />
+    <Content Include="PradayaWedsGaurav\music\sagai.mp3" />
+    <Content Include="PradayaWedsGaurav\music\sangeet.mp3" />
+    <Content Include="PradayaWedsGaurav\music\wedding.mp3" />
+    <Content Include="PradayaWedsGaurav\Sangeet.aspx" />
+    <Content Include="PradayaWedsGaurav\Scripts\bjqs-1.3.min.js" />
+    <Content Include="PradayaWedsGaurav\Styles\Custom.css" />
+    <Content Include="PradayaWedsGaurav\Styles\Site.css" />
+    <Content Include="PradayaWedsGaurav\Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="PradayaWedsGaurav\Scripts\jquery-1.4.1.js" />
+    <Content Include="PradayaWedsGaurav\Scripts\jquery-1.4.1.min.js" />
+    <Content Include="PradayaWedsGaurav\Chowki.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -99,70 +90,71 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Wedding.aspx" />
+    <Content Include="PradayaWedsGaurav\Wedding.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Engagement.aspx.cs">
+    <Compile Include="PradayaWedsGaurav\Engagement.aspx.cs">
       <DependentUpon>Engagement.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Engagement.aspx.designer.cs">
+    <Compile Include="PradayaWedsGaurav\Engagement.aspx.designer.cs">
       <DependentUpon>Engagement.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Home.aspx.cs">
+    <Compile Include="PradayaWedsGaurav\Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Home.aspx.designer.cs">
+    <Compile Include="PradayaWedsGaurav\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Mehandi.aspx.cs">
+    <Compile Include="PradayaWedsGaurav\Mehandi.aspx.cs">
       <DependentUpon>Mehandi.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Mehandi.aspx.designer.cs">
+    <Compile Include="PradayaWedsGaurav\Mehandi.aspx.designer.cs">
       <DependentUpon>Mehandi.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Chowki.aspx.cs">
+    <Compile Include="PradayaWedsGaurav\Chowki.aspx.cs">
       <DependentUpon>Chowki.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Chowki.aspx.designer.cs">
+    <Compile Include="PradayaWedsGaurav\Chowki.aspx.designer.cs">
       <DependentUpon>Chowki.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Sangeet.aspx.cs">
+    <Compile Include="PradayaWedsGaurav\Sangeet.aspx.cs">
       <DependentUpon>Sangeet.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Sangeet.aspx.designer.cs">
+    <Compile Include="PradayaWedsGaurav\Sangeet.aspx.designer.cs">
       <DependentUpon>Sangeet.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Wedding.aspx.cs">
+    <Compile Include="PradayaWedsGaurav\Wedding.aspx.cs">
       <DependentUpon>Wedding.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Wedding.aspx.designer.cs">
+    <Compile Include="PradayaWedsGaurav\Wedding.aspx.designer.cs">
       <DependentUpon>Wedding.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="PradayaWedsGaurav\Images\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\css\images\button-big-active.svg" />
-    <None Include="Assets\css\images\button-big-hover.svg" />
-    <None Include="Assets\css\images\button-big.svg" />
-    <None Include="Assets\css\images\ie\button-big-active.svg" />
-    <None Include="Assets\css\images\ie\button-big-hover.svg" />
-    <None Include="Assets\css\images\ie\button-big.svg" />
-    <None Include="Assets\css\images\mobileUI-site-nav-opener-bg.svg" />
-    <None Include="Assets\sass\ie9.scss" />
-    <None Include="Assets\sass\libs\_functions.scss" />
-    <None Include="Assets\sass\libs\_mixins.scss" />
-    <None Include="Assets\sass\libs\_skel.scss" />
-    <None Include="Assets\sass\libs\_vars.scss" />
-    <None Include="Assets\sass\main.scss" />
+    <None Include="PradayaWedsGaurav\Assets\css\images\button-big-active.svg" />
+    <None Include="PradayaWedsGaurav\Assets\css\images\button-big-hover.svg" />
+    <None Include="PradayaWedsGaurav\Assets\css\images\button-big.svg" />
+    <None Include="PradayaWedsGaurav\Assets\css\images\ie\button-big-active.svg" />
+    <None Include="PradayaWedsGaurav\Assets\css\images\ie\button-big-hover.svg" />
+    <None Include="PradayaWedsGaurav\Assets\css\images\ie\button-big.svg" />
+    <None Include="PradayaWedsGaurav\Assets\css\images\mobileUI-site-nav-opener-bg.svg" />
+    <None Include="PradayaWedsGaurav\Assets\sass\ie9.scss" />
+    <None Include="PradayaWedsGaurav\Assets\sass\libs\_functions.scss" />
+    <None Include="PradayaWedsGaurav\Assets\sass\libs\_mixins.scss" />
+    <None Include="PradayaWedsGaurav\Assets\sass\libs\_skel.scss" />
+    <None Include="PradayaWedsGaurav\Assets\sass\libs\_vars.scss" />
+    <None Include="PradayaWedsGaurav\Assets\sass\main.scss" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

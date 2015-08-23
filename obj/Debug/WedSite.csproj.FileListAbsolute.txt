@@ -1,5 +1,4 @@
 E:\__WedSite.Com\WedSite\WedSite\bin\WedSite.dll
 E:\__WedSite.Com\WedSite\WedSite\bin\WedSite.pdb
-E:\__WedSite.Com\WedSite\WedSite\obj\Debug\ResolveAssemblyReference.cache
 E:\__WedSite.Com\WedSite\WedSite\obj\Debug\WedSite.dll
 E:\__WedSite.Com\WedSite\WedSite\obj\Debug\WedSite.pdb
