@@ -54,7 +54,7 @@
 										<a href="Engagement.aspx">Engagement</a>
 										<a href="Sangeet.aspx">Sangeet</a>
                                         <a href="Mehandi.aspx">Mehandi</a>
-										<a href="Wedding.aspx">Wedding</a>
+										<a href="Wedding.aspx" class="currentNavPage">Wedding</a>
 									</nav>
 
 							</div>
@@ -62,7 +62,7 @@
 					</header>
 				</div>
 			<!-- Content -->
-				<div id="content-wrapper">
+				<div id="content-wrapper" style="background-color:#B22222">
 					<div id="content">
 						<div class="container">
 							<div class="row">
@@ -70,7 +70,7 @@
                                 <section>
                                 <img src="images/wedchooda.jpg" border="0" alt="" width="225" height="125"/> <br /><br /><br /><br />
                                 <img src="images/wedtext1.jpg" border="0" alt="" /> <br /><br />
-                                <img src="images/wedbridetext.png" alt="" width="225" height="125">
+                                <img src="images/wedbridetext1.png" alt="" width="225" height="125">
                                 <img src="images/wedkanyadaan.jpg" border="0" alt="" width="225" height="125"/> <br /><br /><br /><br />
                                 <img src="images/wedtext4.jpg" border="0" alt="" /> 
                           
@@ -80,7 +80,7 @@
 								<section>
                                   <img src="images/wedhaldi.jpg" border="0" alt="" width="225" height="125"/> <br /><br /><br /><br />
                                   <img src="images/wedtext2.jpg" border="0" alt="" /> <br /><br />
-                                  <img src="images/wedwedstext.png" alt="" width="225" height="125">
+                                  <img src="images/wedwedstext1.png" alt="" width="225" height="125">
                                   <img src="images/wedphere.jpg" border="0" alt="" width="225" height="125" /> <br /><br /><br /><br />
                                   <img src="images/wedtext5.jpg" border="0" alt="" />
                                 </section>
@@ -89,18 +89,18 @@
                                 <section>
                                 <img src="images/wedvarmala.jpg" border="0" alt="" width="225" height="125"/> <br /><br /><br /><br />
                                 <img src="images/wedtext3.jpg" border="0" alt="" /> <br /><br />
-                                <img src="images/wedgroomtext.png" alt="" width="225" height="125">
+                                <img src="images/wedgroomtext1.png" alt="" width="225" height="125">
                                 <img src="images/weddoli.jpg" border="0" alt="" width="225" height="125" /> <br /><br /><br /><br />
                                 <img src="images/wedtext6.jpg" border="0" alt="" />
                                 </section>
 							</div>
                             <div class="3u 12u(mobile)" style="text-align:center;">
                                 <section>
-                                  <p style="color:#990033;">The bride and the groom take the first step to pledge that they would provide a prospered living for the household or the family that they would look after and avoid those that might hinder their healthy living.
+                                  <p style="color:#FFFFFF;">The bride and the groom take the first step to pledge that they would provide a prospered living for the household or the family that they would look after and avoid those that might hinder their healthy living.
                                   </p>
-                                  <p style="color:#666699">The bride and the groom promise that they would develop their physical, mental and spiritual powers in order to lead a lifestyle that would be healthy.
+                                  <p style="color:#33CCCC">The bride and the groom promise that they would develop their physical, mental and spiritual powers in order to lead a lifestyle that would be healthy.
                                   </p>
-                                  <p style="color:#FF0099">The couple promises to earn a living and increase by righteous and proper means, so that their materialistic wealth increases manifold.
+                                  <p style="color:#0099CC">The couple promises to earn a living and increase by righteous and proper means, so that their materialistic wealth increases manifold.
                                   </p>
                                  <p  style="color:#33CCCC">The married couple pledges to acquire knowledge,happiness and harmony by mutual love,respect,understanding & faith.
                                   </p>
@@ -108,7 +108,7 @@
                                   </p>
                                   <p style="color:#0099CC">While taking the sixth step around the sacred fire, the bride and the groom pray for self-control of the mind, body and soul and longevity of their marital relationship.
                                   </p>
-                                  <p style="color:#CC6633">When the bride and the groom take the seventh and the last vow, they promise that they would be true and loyal to each other and would remain companions and best of friends for the lifetime.
+                                  <p style="color:#FFD700">When the bride and the groom take the seventh and the last vow, they promise that they would be true and loyal to each other and would remain companions and best of friends for the lifetime.
                                   </p>
                                 </section>
 							</div>
@@ -141,7 +141,7 @@
                                 <a target="_blank" href="https://maps.google.co.in/maps?ie=UTF-8&q=Nidra+Hotel+Delhi&fb=1&gl=in&hq=hotel+nidra&hnear=0x390cfd5b347eb62d:0x52c2b7494e204dce,New+Delhi,+Delhi&cid=0,0,5316518591807738929&ei=8-1nUrLeHMPorAe57YDIAg&ved=0COUBEPwSMAo">
                                 <img src="images/weddingvenue.png" alt="" class="img-border" width="188px" height="148px">
                                 </a>
-								<asp:Image ID="Image1" width="188px" height ="148px" style="cursor:pointer;"  runat="server" ImageUrl = "images/imgWeddingCard.jpg" onclick="DisplayNewImageInWidnow();" /> 
+								<asp:Image ID="Image1" width="188px" height ="148px" style="cursor:pointer;"  runat="server" ImageUrl = "images/weddingcard.jpg" onclick="DisplayNewImageInWidnow();" /> 
 							</div>
 						</div>
 					</footer>

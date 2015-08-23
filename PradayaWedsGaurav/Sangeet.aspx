@@ -31,7 +31,7 @@
 									<nav id="nav">
 										<a href="Chowki.aspx">Chowki</a>
 										<a href="Engagement.aspx">Engagement</a>
-										<a href="Sangeet.aspx">Sangeet</a>
+										<a href="Sangeet.aspx" class="currentNavPage">Sangeet</a>
                                         <a href="Mehandi.aspx">Mehandi</a>
 										<a href="Wedding.aspx">Wedding</a>
 									</nav>
@@ -42,7 +42,7 @@
 				</div>
 
 			<!-- Content -->
-				<div id="content-wrapper">
+				<div id="content-wrapper" style="background-color:#A0522D">
 					<div id="content">
 						<div class="container">
 							<div class="row">

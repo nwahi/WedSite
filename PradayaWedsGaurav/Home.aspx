@@ -14,7 +14,20 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="Stylesheet" href="Styles/Custom.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+         <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+         <script src="Scripts/bjqs-1.3.js"></script>
+         <script type="text/javascript">
+             jQuery(document).ready(function ($) {
+                 $('#banner-fade').bjqs({
+                     height: 320,
+                     width: 620,
+                     responsive: true
+                 });
+
+             });
+      </script>
 	</head>
 	<body>
 <embed src="music/home.mp3" autostart="true" hidden="true" loop="true"/> 
@@ -44,6 +57,7 @@
 					<div id="banner">
 						<div class="container">
 							<div class="row">
+                                                 
 								<div class="6u 12u(mobile)">
 
 									<!-- Banner Copy -->
@@ -54,9 +68,16 @@
                                            that you both will remember for the rest of your lives.</p>
 								</div>
 								<div class="6u 12u(mobile)">
+                             <div id="banner-fade">
+                            <!-- start Basic Jquery Slider -->
+                            <ul class="bjqs">
+                              <li><img src="images/homeslide1.jpg"></li>
+                              <li><img src="images/homeslide2.jpg"></li>
+                              <li><img src="images/homeslide3.jpg"></li>
+                            </ul>
+                            <!-- end Basic jQuery Slider -->
 
-									<!-- Banner Image -->
-										<a href="#" class="feature-image"><img src="images/homebanner.jpg" alt="" /></a>
+                          </div>
 								</div>
 							</div>
 						</div>
@@ -116,7 +137,7 @@
 				</div>
 
 			<!-- Content -->
-				<div id="content-wrapper">
+				<div id="content-wrapper" style="padding:0px">
 					<div id="content">
 						<div class="container">
 							<div class="row">

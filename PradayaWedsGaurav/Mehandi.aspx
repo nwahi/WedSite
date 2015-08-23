@@ -52,7 +52,7 @@
 										<a href="Chowki.aspx">Chowki</a>
 										<a href="Engagement.aspx">Engagement</a>
 										<a href="Sangeet.aspx">Sangeet</a>
-                                        <a href="Mehandi.aspx">Mehandi</a>
+                                        <a href="Mehandi.aspx" class="currentNavPage">Mehandi</a>
 										<a href="Wedding.aspx">Wedding</a>
 									</nav>
 
@@ -62,7 +62,7 @@
 				</div>
 
 			<!-- Content -->
-				<div id="content-wrapper">
+				<div id="content-wrapper" style="background-color:#BC8F8F">
 					<div id="content">
 						<div class="container">
 							<div class="row">
@@ -139,8 +139,7 @@
 							</div>
                             <div class="4u 12u(mobile)">
                                 <a target="_blank" href="http://maps.mapmyindia.com/#map+of+Community+Centre+B1,Vasant+Kunj+Sector+B,New+Delhi,Delhi">
-                                <img src="images/mehandivenue
-                                .png" alt="" class="img-border" width="188px" height="148px">
+                                <img src="images/mehandivenue.png" alt="" class="img-border" width="188px" height="148px">
                                 </a>
 								<asp:Image ID="Image1" width="188px" height ="148px" style="cursor:pointer;"  runat="server" ImageUrl = "images/mehandicard.jpg" onclick="DisplayNewImageInWidnow();" /> 
 							</div>

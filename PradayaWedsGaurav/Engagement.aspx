@@ -51,7 +51,7 @@
 								<!-- Nav -->
 									<nav id="nav">
 										<a href="Chowki.aspx">Chowki</a>
-										<a href="Engagement.aspx">Engagement</a>
+										<a href="Engagement.aspx" class="currentNavPage">Engagement</a>
 										<a href="Sangeet.aspx">Sangeet</a>
                                         <a href="Mehandi.aspx">Mehandi</a>
 										<a href="Wedding.aspx">Wedding</a>
@@ -63,17 +63,17 @@
 				</div>
 
 			<!-- Content -->
-				<div id="content-wrapper">
+				<div id="content-wrapper" style="background-color:#E34363">
 					<div id="content">
 						<div class="container">
 							<div class="row">
 							<div class="4u 12u(mobile)" style="text-align:center;">
                                 <section>
                             <img src="images/engagementsagantext.png" border="0" alt=""/>
-                            <p class="text-3 top-4">A havan is performed by a pundit. Thereafter, the bride’s father applies Tilak on the groom’s forehead. All the relatives and friends of the bride’s side bless the prospective groom
-                            </p>
+                            <p class="text-3 top-9">A havan is performed by a pundit. Thereafter, the bride’s father applies Tilak on the groom’s forehead. All the relatives and friends of the bride’s side bless the prospective groom
+                            </p><br />
                             <img src="images/engagementsagan.jpg" width="250px" height="200px" alt="" class="img-border"><p></p>
-                            <p><strong>बजिया दे नाल बाजी ले के चल लगन<br />
+                            <p  class="text20"><strong>बजिया दे नाल बाजी ले के चल लगन<br />
                             आज अलबेली खुसिया मनाईये<br /> वीर जी बाह्यों चल्या<br />
                             आज अलबेली सगन मनाइये</strong></p>
                             </section>
@@ -82,10 +82,10 @@
 									<!-- Main Content -->
 										<section>
                           <img src="images/engagementsagaitext.png" border="0" alt=""/>
-                            <p class="text-3 top-4"><i>The engagement ceremony is basically a brief ritual wherein the couple exchange rings. This ensures both the parties that the girl and the boy are now hooked.</i></p>
+                            <p class="text-3 top-9"><i>The engagement ceremony is basically a brief ritual wherein the couple exchange rings. This ensures both the parties that the girl and the boy are now hooked.</i></p>
                      <br />
                      <img src="images/engagementsagai.jpg" width="250px" height="200px" alt="" class="img-border"><p></p>
-                     <p><strong>वाह वाह रामजी जोड़ी क्या बनाई<br />
+                     <p  class="text20"><strong>वाह वाह रामजी जोड़ी क्या बनाई<br />
                         जीजी और जीजा को बधाई हो बधाई<br />
                         सब रस्मों से बड़ी है जग में<br />
                         दिल से दिल की सगाई</strong></p>
@@ -96,10 +96,10 @@
                             <div class="4u 12u(mobile)" style="text-align:center;">
                                 <section>
                            <img src="images/engagementchunritext.png" border="0" alt=""/>
-                            <p class="text-3 top-4">It is always in a shade of the traditional wedding colour, red, and is presented to the bride-to-be. The significance of the chunni ceremony is to begin the process of welcoming the bride in to the family.
+                            <p class="text-3 top-9">It is always in a shade of the traditional wedding colour, red, and is presented to the bride-to-be. The significance of the chunni ceremony is to begin the process of welcoming the bride in to the family.
                             </p>
                              <img src="images/engagementchunri.jpg" width="250px" height="200px" alt="" class="img-border" ><p></p>
-                            <p><strong>बन्‍नो रानी तुम्हे सयानी<br />
+                            <p class="text20"><strong>बन्‍नो रानी तुम्हे सयानी<br />
                         होना ही था होना ही था<br />
                         एक राजा की तुमको रानी<br />
                         होना ही था होना ही था</strong></p>

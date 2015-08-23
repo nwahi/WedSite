@@ -50,7 +50,7 @@
 
 								<!-- Nav -->
 									<nav id="nav">
-										<a href="Chowki.aspx">Chowki</a>
+										<a href="Chowki.aspx" class="currentNavPage">Chowki</a>
 										<a href="Engagement.aspx">Engagement</a>
 										<a href="Sangeet.aspx">Sangeet</a>
                                         <a href="Mehandi.aspx">Mehandi</a>
@@ -63,7 +63,7 @@
 				</div>
 
 			<!-- Content -->
-				<div id="content-wrapper">
+				<div id="content-wrapper" style="background-color:#DAA520">
 					<div id="content">
 						<div class="container">
 							<div class="row">
