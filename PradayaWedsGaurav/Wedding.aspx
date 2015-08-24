@@ -30,14 +30,15 @@
                 popup.document.write(html);
                 popup.document.focus();
                 popup.document.close();
-            } 
-    </script>
+            }
+           </script>
 	</head>
     <form id="form1" runat="server">
 
 <html>
 	<body class="subpage">
     <embed src="music/wedding.mp3" autostart="true" hidden="true" loop="true"/>
+    
 		<div id="page-wrapper">
 			<!-- Header -->
 				<div id="header-wrapper">
@@ -62,7 +63,7 @@
 					</header>
 				</div>
 			<!-- Content -->
-				<div id="content-wrapper" style="background-color:#B22222">
+				<div id="content-wrapper" style="background-color:#993333">
 					<div id="content">
 						<div class="container">
 							<div class="row">
