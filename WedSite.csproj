@@ -20,6 +20,11 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -83,6 +88,7 @@
     <Content Include="PradayaWedsGaurav\music\wedding.mp3" />
     <Content Include="PradayaWedsGaurav\Sangeet.aspx" />
     <Content Include="PradayaWedsGaurav\Scripts\bjqs-1.3.js" />
+    <Content Include="PradayaWedsGaurav\Scripts\Home.js" />
     <Content Include="PradayaWedsGaurav\Styles\Custom.css" />
     <Content Include="PradayaWedsGaurav\Styles\Site.css" />
     <Content Include="PradayaWedsGaurav\Chowki.aspx" />

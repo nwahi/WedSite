@@ -2,3 +2,9 @@ E:\__WedSite.Com\WedSite\WedSite\bin\WedSite.dll
 E:\__WedSite.Com\WedSite\WedSite\bin\WedSite.pdb
 E:\__WedSite.Com\WedSite\WedSite\obj\Debug\WedSite.dll
 E:\__WedSite.Com\WedSite\WedSite\obj\Debug\WedSite.pdb
+D:\Personal\WedSite\bin\WedSite.dll.config
+D:\Personal\WedSite\bin\WedSite.dll
+D:\Personal\WedSite\bin\WedSite.pdb
+D:\Personal\WedSite\obj\Debug\WedSite.csprojResolveAssemblyReference.cache
+D:\Personal\WedSite\obj\Debug\WedSite.dll
+D:\Personal\WedSite\obj\Debug\WedSite.pdb
