@@ -10,6 +10,10 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
         <link rel=Stylesheet href="Styles/Custom.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="Scripts/bjqs-1.3.js"></script>
+    <script type="text/javascript" src="Scripts/Custom.js"></script>
+
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
         <script type="text/javascript">
             function DisplayNewImageInWidnow() {
@@ -72,7 +76,27 @@
 									<!-- Sidebar -->
 										<section>
 											<header>
-													<div style="text-align:center;"><img src="images/chowkigod1.jpg" alt="" class="img-border">
+													<div style="text-align:center;">
+                                                    <div id="banner-fadeChowki">
+                                                     <ul class="bjqs">
+                                                        <li>
+                                                            <img src="images/chowkislide1.jpg" alt="" class="img-border"/></li>
+                                                        <li>
+                                                           <img src="images/chowkislide2.jpg" alt="" class="img-border"/></li>
+                                                        <li>
+                                                           <img src="images/chowkislide3.jpg" alt="" class="img-border"/></li>
+                                                         <li>
+                                                           <img src="images/chowkislide4.jpg" alt="" class="img-border"/></li>
+                                                           <li>
+                                                            <img src="images/chowkislide5.jpg" alt="" class="img-border"/></li>
+                                                        <li>
+                                                           <img src="images/chowkislide6.jpg" alt="" class="img-border"/></li>
+                                                        <li>
+                                                           <img src="images/chowkislide7.jpg" alt="" class="img-border"/></li>
+                                                         <li>
+                                                           <img src="images/chowkislide8.jpg" alt="" class="img-border"/></li>
+                                                    </ul>
+                                                    </div>
 											<p><strong>वक्रतुण्ड महाकाय सुर्यकोटि समप्रभ । <br />निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ।।</strong></p>
                                             <img src="images/chowkiquotes.jpg" alt="" class="img-border">
                                                     </div>
@@ -90,7 +114,7 @@
                                         </div>
                                         <div class="3u 12u(mobile)" style="text-align:center;">
                                         <section>
-                                        <div>	
+                                        <div >	
                                         <img src="images/chowkigod3.jpg" alt="" class="img-border" width="188px" height="148px">
                                         <p class="text-3 top-4"><i>Chowki is a devotional program, that can be performed on occasions such as Engagements, Birthdays, Weddings, Anniversaries.</i></p>
                                         <img src="images/chowkigod4.jpg" alt="" class="img-border" width="188px" height="120px" >

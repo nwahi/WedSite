@@ -97,7 +97,7 @@
                                 <section>
                            <img src="images/engagementchunritext.png" border="0" alt=""/>
                             <p class="text-3 top-9">It is always in a shade of the traditional wedding colour, red, and is presented to the bride-to-be. The significance of the chunni ceremony is to begin the process of welcoming the bride in to the family.
-                            </p>
+                            </p><br />
                              <img src="images/engagementchunri.jpg" width="250px" height="200px" alt="" class="img-border" ><p></p>
                             <p class="text20"><strong>बन्‍नो रानी तुम्हे सयानी<br />
                         होना ही था होना ही था<br />

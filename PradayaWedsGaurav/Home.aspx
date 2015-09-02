@@ -18,7 +18,7 @@
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="Scripts/bjqs-1.3.js"></script>
-    <script type="text/javascript" src="Scripts/Home.js"></script>
+    <script type="text/javascript" src="Scripts/Custom.js"></script>
 </head>
 <body>
     <%--<embed src="music/home.mp3" autostart="true" hidden="true" loop="true" />--%>
@@ -64,7 +64,7 @@
                             </audio>
                         </div>
                         <div class="6u 12u(mobile)">
-                            <div id="banner-fade">
+                            <div id="banner-fadeHome">
                                 <!-- start Basic Jquery Slider -->
                                 <ul class="bjqs">
                                     <li>

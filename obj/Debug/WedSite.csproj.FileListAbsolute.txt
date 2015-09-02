@@ -8,3 +8,4 @@ D:\Personal\WedSite\bin\WedSite.pdb
 D:\Personal\WedSite\obj\Debug\WedSite.csprojResolveAssemblyReference.cache
 D:\Personal\WedSite\obj\Debug\WedSite.dll
 D:\Personal\WedSite\obj\Debug\WedSite.pdb
+E:\__WedSite.Com\WedSite\WedSite\obj\Debug\WedSite.csprojResolveAssemblyReference.cache
