@@ -10,7 +10,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/WedSite.dll">
-      <publishTime>09/27/2015 12:33:17</publishTime>
+      <publishTime>09/27/2015 12:54:24</publishTime>
     </File>
     <File Include="PradayaWedsGaurav/Assets/css/ie9.css">
       <publishTime>08/23/2015 17:24:57</publishTime>
@@ -65,6 +65,276 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="PradayaWedsGaurav/Home.aspx">
       <publishTime>09/04/2015 16:00:22</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/chowkicard.jpg">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/chowkigod2.jpg">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/chowkigod3.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/chowkigod4.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/chowkigod5.jpg">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/chowkiquotes.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/chowkislide1.jpg">
+      <publishTime>09/04/2015 16:00:22</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/chowkislide2.jpg">
+      <publishTime>09/04/2015 16:00:22</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/chowkislide3.jpg">
+      <publishTime>09/04/2015 16:00:22</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/chowkislide4.jpg">
+      <publishTime>09/04/2015 16:00:22</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/chowkislide5.jpg">
+      <publishTime>09/04/2015 16:00:22</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/chowkislide6.jpg">
+      <publishTime>09/04/2015 16:00:22</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/chowkislide7.jpg">
+      <publishTime>09/04/2015 16:00:22</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/chowkislide8.jpg">
+      <publishTime>09/04/2015 16:00:22</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/chowkivenue.png">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/engagementcard.jpg">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/engagementchunri.jpg">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/engagementchunritext.png">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/engagementsagai.jpg">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/engagementsagaitext.png">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/engagementsagan.jpg">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/engagementsagantext.png">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/engagementvenue.jpg">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/home1.jpg">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/home2.jpg">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/home3.jpg">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/home4.jpg">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/homebanner.jpg">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/homebrideparents.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/homebrideprofile.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/homegroomparents.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/homegroomprofile.jpg">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/homeslide1.jpg">
+      <publishTime>08/24/2015 16:55:05</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/homeslide2.jpg">
+      <publishTime>08/24/2015 16:55:05</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/homeslide3.jpg">
+      <publishTime>08/24/2015 16:55:05</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/mehandi1.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/mehandi2.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/mehandi3.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/mehandi4.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/mehandicard.jpg">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/mehanditext5.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/mehanditext6.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/mehanditext7.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/mehanditext8.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/mehandivenue.png">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/sangeet1.jpg">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/sangeet2.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/sangeet3.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/sangeet4.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/sangeet5.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/sangeet6.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/sangeet7.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/sangeet8.jpg">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/sangeettext1.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/sangeettext2.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/sangeettext3.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/sangeettext4.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/sangeettext5.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/sangeettext6.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/sangeettext7.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/sangeettext8.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/sangeetvenue.png">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/Untitled.png">
+      <publishTime>09/04/2015 16:00:22</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/wedbridetext.png">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/wedbridetext1.png">
+      <publishTime>08/24/2015 16:55:05</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/wedchooda.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/weddingcard.jpg">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/weddingvenue.png">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/weddoli.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/wedgroomtext.png">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/wedgroomtext1.png">
+      <publishTime>08/24/2015 16:55:05</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/wedhaldi.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/wedkanyadaan.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/wedphere.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/wedslide1.jpg">
+      <publishTime>09/04/2015 16:00:22</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/wedslide2.png">
+      <publishTime>09/04/2015 16:00:22</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/wedslide3.png">
+      <publishTime>09/04/2015 16:00:22</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/wedslide4.png">
+      <publishTime>09/04/2015 16:00:22</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/wedslide5.png">
+      <publishTime>09/04/2015 16:00:22</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/wedslide6.png">
+      <publishTime>09/04/2015 16:00:22</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/wedslide7.png">
+      <publishTime>09/04/2015 16:00:22</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/wedtext1.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/wedtext2.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/wedtext3.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/wedtext4.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/wedtext5.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/wedtext6.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/wedvarmala.JPG">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/wedwedstext.png">
+      <publishTime>08/23/2015 17:24:57</publishTime>
+    </File>
+    <File Include="PradayaWedsGaurav/Images/wedwedstext1.png">
+      <publishTime>08/24/2015 16:55:05</publishTime>
     </File>
     <File Include="PradayaWedsGaurav/Mehandi.aspx">
       <publishTime>08/24/2015 16:55:05</publishTime>
