@@ -101,7 +101,6 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="PradayaWedsGaurav\Wedding.aspx" />
-    <Content Include="WedsiteFinal.wmv" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PradayaWedsGaurav\Wedding1.aspx.cs">
