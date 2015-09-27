@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
         <link rel=Stylesheet href="Styles/Custom.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+         <script type="text/javascript" src="Scripts/Custom.js"></script>
         <script type="text/javascript">
             function DisplayNewImageInWidnow() {
                 var img = document.getElementById('<%= Image1.ClientID %>').src;
@@ -36,7 +37,7 @@
 
 <html>
 	<body class="subpage">
-    <embed src="music/Mehandi.mp3" autostart="true" hidden="true" loop="true" />
+    
 		<div id="page-wrapper">
 			<!-- Header -->
 				<div id="header-wrapper">
@@ -69,18 +70,23 @@
 							<div class="3u 12u(mobile)" style="text-align:center;">
                                 <section>
                                     <img src="images/Mehandi1.jpg" border="0" alt="" width="225" height="125"/><br /><br />
-                                     <p>मेहंदी है रचने वाली<br />
+                                     <p class="mehText1">मेहंदी है रचने वाली<br />
                                                 हाथों में गहरी लाली<br/>
                                                 कहे सखियाँ,अब कलियाँ हाथों में खिलनेवाली हैं<br/>
                                                 तेरे मनको,जीवनको <br />नयी खुशियाँ मिलनेवाली है<br />
                                                 </p>
                                     <img src="images/Mehanditext5.jpg" border="0" alt="" />
+                                    <br /><br />
+                             <audio id="audioMehandi">
+                                <source src="music/Mehandi.mp3" type="audio/mp3">
+                                <embed src="music/Mehandi.mp3" autostart="true" hidden="true" loop="true" />
+                            </audio>
                                 </section>
                             </div>
                             <div class="3u 12u(mobile)" style="text-align:center;">
 								<section>
                                   <img src="images/Mehandi2.jpg" border="0" alt="" width="225" height="125"/><br /><br />
-                                 <p>लोग बागों से इसे तोड़के लेआते हैं<br/>
+                                 <p class="mehText2">लोग बागों से इसे तोड़के लेआते हैं<br/>
                                         पत्थर पे इसे शौक से पिसवाते हैं<br />
                                         फिर भी होठों से इसकी उफ तलक ना आती है<br/>
                                         ये तो मेहंदी है मेहंदी तो रंग लाती है
@@ -91,7 +97,7 @@
                             <div class="3u 12u(mobile)" style="text-align:center;">
                                 <section>
                                   <img src="images/Mehandi3.jpg" border="0" alt="" width="225" height="125"/><br /><br />
-                                 <p>मेहन्दी नी मेहन्दी, मेहन्दी नी मेहन्दी
+                                 <p class="mehText3">मेहन्दी नी मेहन्दी, मेहन्दी नी मेहन्दी
                                                 <br/>
                                                 आज रल के लावन आईयँ नी<br/>
                                                 बेहना ते भर्जाइयां<br />
@@ -102,7 +108,7 @@
                             <div class="3u 12u(mobile)" style="text-align:center;">
                                 <section>
                                   <img src="images/Mehandi4.jpg" border="0" alt="" width="225" height="125"/><br /><br />
-                                  <p> मेहंदी लगा के रखना
+                                  <p class="mehText4"> मेहंदी लगा के रखना
                                                 डोली सजा के रखना<br/>
                                                 लेने तुझे ओ गोरी आयेंगे तेरे सजना<br/>
                                                 शावा ओये ओये ओये <br/>
@@ -160,7 +166,11 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+              <script>
+                  jQuery(document).ready(function ($) {
+                      LoadAudioControl('audioMehandi');
+                  });
+    </script>
 	</body>
     </form>
 </html>

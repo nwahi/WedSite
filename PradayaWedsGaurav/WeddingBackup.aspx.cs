@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace WedSite
 {
-    public partial class Wedding1 : System.Web.UI.Page
+    public partial class WeddingBackup : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

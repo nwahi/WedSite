@@ -10,7 +10,7 @@
 namespace WedSite {
     
     
-    public partial class Wedding1 {
+    public partial class WeddingBackup {
         
         /// <summary>
         /// form1 control.

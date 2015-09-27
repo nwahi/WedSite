@@ -41,7 +41,6 @@
 
 <html>
 	<body class="subpage">
-    <embed src="music/chowki.mp3" autostart="true" hidden="true" loop="true"/>
 		<div id="page-wrapper">
 			<!-- Header -->
 				<div id="header-wrapper">
@@ -70,7 +69,9 @@
 				<div id="content-wrapper" style="background-color:#DAA520">
 					<div id="content">
 						<div class="container">
+                         
 							<div class="row">
+                           
 								<div class="3u 12u(mobile)">
 
 									<!-- Sidebar -->
@@ -97,22 +98,27 @@
                                                            <img src="images/chowkislide8.jpg" alt="" class="img-border"/></li>
                                                     </ul>
                                                     </div>
-											<p><strong>वक्रतुण्ड महाकाय सुर्यकोटि समप्रभ । <br />निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ।।</strong></p>
+											<p style="color:#CC3366;"><strong>वक्रतुण्ड महाकाय सुर्यकोटि समप्रभ । <br />निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ।।</strong></p>
                                             <img src="images/chowkiquotes.jpg" alt="" class="img-border">
+                                            <br /><br />
+                                            <audio id="audioChowki">
+                                <source src="music/chowki.mp3" type="audio/mp3">
+                                <embed src="music/chowki.mp3" autostart="true" hidden="true" loop="true" />
+                            </audio>
                                                     </div>
 											</header>
 										</section>
 								</div>
-                                  <div class="3u 12u(mobile)" style="text-align:center;">
+                                <div class="3u 12u(mobile)" style="text-align:center;">
                                         <section>
                                         <div>
                                         <img src="images/chowkigod2.jpg" alt="" class="img-border" width="188px" height="148px">
-                                        <p class="text-3 top-4">सर्वमङ्गलमाङ्गल्ये शिवे सर्वार्थसाधिके । <br /> शरण्ये त्र्यम्बके गौरि नारायणि नमोऽस्तु ते ॥</p>
+                                        <p class="text-3 top-4">सर्वमङ्गलमाङ्गल्ये शिवे सर्वार्थसाधिके । <br /> शरण्ये त्र्यम्बके गौरि नारायणि नमोऽस्तु ते ॥</p><br />
                                         <p class="top-5"><i>Who is the Auspiciousness in All the Auspicious, Auspiciousness Herself and Complete with All the Auspicious Attributes,The Giver of Refuge, With Three Eyes and a Shining Face; Salutations to You O Narayani.</i></p>
                                         </div>
                                         </section>
                                         </div>
-                                        <div class="3u 12u(mobile)" style="text-align:center;">
+                                <div class="3u 12u(mobile)" style="text-align:center;">
                                         <section>
                                         <div >	
                                         <img src="images/chowkigod3.jpg" alt="" class="img-border" width="188px" height="148px">
@@ -121,7 +127,7 @@
                                         </div>
                                         </section>
                                         </div>
-                                        <div class="3u 12u(mobile)" style="text-align:center;">
+                                <div class="3u 12u(mobile)" style="text-align:center;">
                                         <section>
                                         <div>
                                         <img src="images/chowkigod5.jpg" alt="" class="img-border" width="188px" height="148px">
@@ -130,7 +136,7 @@
                                         </div>
                                         </section>
                                         </div>
-								
+								 
 							</div>
 						</div>
 					</div>
@@ -145,7 +151,7 @@
 										<div>
 											<div class="row">
 												<div class="8u 12u(mobile)">
-													<p><strong>Event Details</strong><br />
+                                                	  <p><strong>Event Details</strong><br />
                                                       Pooja & Deepak Wahi<br />
                                                       28-January-2014<br />
                                                       7 P.M. Onwards, followed by Bhandara<br />
@@ -181,7 +187,11 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+             <script>
+                 jQuery(document).ready(function ($) {
+                     LoadAudioControl('audioChowki');
+                 });
+    </script>
 	</body>
     </form>
 </html>

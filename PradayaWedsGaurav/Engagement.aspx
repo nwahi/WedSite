@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
         <link rel=Stylesheet href="Styles/Custom.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+          <script type="text/javascript" src="Scripts/Custom.js"></script>
         <script type="text/javascript">
             function DisplayNewImageInWidnow() {
                 var img = document.getElementById('<%= Image1.ClientID %>').src;
@@ -37,7 +38,6 @@
 
 <html>
 	<body class="subpage">
-    <embed src="music/sagai.mp3" autostart="true" hidden="true" loop="true"/>
 		<div id="page-wrapper">
 			<!-- Header -->
 				<div id="header-wrapper">
@@ -71,11 +71,15 @@
                                 <section>
                             <img src="images/engagementsagantext.png" border="0" alt=""/>
                             <p class="text-3 top-9">A havan is performed by a pundit. Thereafter, the bride’s father applies Tilak on the groom’s forehead. All the relatives and friends of the bride’s side bless the prospective groom
-                            </p><br />
+                            </p><br /><br />
                             <img src="images/engagementsagan.jpg" width="250px" height="200px" alt="" class="img-border"><p></p>
                             <p  class="text20"><strong>बजिया दे नाल बाजी ले के चल लगन<br />
                             आज अलबेली खुसिया मनाईये<br /> वीर जी बाह्यों चल्या<br />
-                            आज अलबेली सगन मनाइये</strong></p>
+                            आज अलबेली सगन मनाइये</strong></p><br /><br />
+                             <audio id="audioEngagement">
+                                <source src="music/sagai.mp3" type="audio/mp3">
+                                <embed src="music/sagai.mp3" autostart="true" hidden="true" loop="true" />
+                            </audio>
                             </section>
                             </div>
                             <div class="4u 12u(mobile) " style="text-align:center;">
@@ -83,7 +87,7 @@
 										<section>
                           <img src="images/engagementsagaitext.png" border="0" alt=""/>
                             <p class="text-3 top-9"><i>The engagement ceremony is basically a brief ritual wherein the couple exchange rings. This ensures both the parties that the girl and the boy are now hooked.</i></p>
-                     <br />
+                     <br /><br />
                      <img src="images/engagementsagai.jpg" width="250px" height="200px" alt="" class="img-border"><p></p>
                      <p  class="text20"><strong>वाह वाह रामजी जोड़ी क्या बनाई<br />
                         जीजी और जीजा को बधाई हो बधाई<br />
@@ -156,7 +160,11 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+             <script>
+                 jQuery(document).ready(function ($) {
+                     LoadAudioControl('audioEngagement');
+                 });
+    </script>
 	</body>
     </form>
 </html>

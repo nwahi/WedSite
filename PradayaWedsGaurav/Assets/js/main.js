@@ -41,8 +41,8 @@
 			// Title Bar.
 				$(
 					'<div id="titleBar">' +
-						'<a href="#navPanel" class="toggle"></a>' +
-						'<span class="title">' + $('#logo').html() + '</span>' +
+						'<a href="#navPanel" class="toggle"><img src="images/downarrow.png" width="64px" height=48px"></img></a>' +
+						'<a href="Home.aspx" style="color:white;"><span class="title">' + $('#logo').html() + '</span></a>' +
 					'</div>'
 				)
 					.appendTo($body);

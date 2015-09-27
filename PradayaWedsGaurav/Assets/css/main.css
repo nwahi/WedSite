@@ -1779,12 +1779,12 @@
 						top: 6px;
 						left: 6px;
 						color: #fff;
-						background: rgba(255, 255, 255, 0.025);
-						box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.05), inset 0px -8px 10px 0px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+						/*background: rgba(255, 255, 255, 0.025);*/
+						/*box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.05), inset 0px -8px 10px 0px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
 						text-shadow: -1px -1px 1px black;
 						width: 49px;
 						height: 31px;
-						border-radius: 8px;
+						border-radius: 8px;*/
 					}
 
 					#titleBar .toggle:before {
@@ -1800,7 +1800,7 @@
 					}
 
 					#titleBar .toggle:active:after {
-						background: rgba(255, 255, 255, 0.05);
+						/*background: rgba(255, 255, 255, 0.05);*/
 					}
 
 			#navPanel {

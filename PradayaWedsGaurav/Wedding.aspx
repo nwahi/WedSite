@@ -11,7 +11,11 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
         <link rel=Stylesheet href="Styles/Custom.css" />
+         <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="Scripts/bjqs-1.3.js"></script>
+    <script type="text/javascript" src="Scripts/Custom.js"></script>
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+         <script type="text/javascript" src="Scripts/Custom.js"></script>
         <script type="text/javascript">
             function DisplayNewImageInWidnow() {
                 var img = document.getElementById('<%= Image1.ClientID %>').src;
@@ -37,8 +41,7 @@
 
 <html>
 	<body class="subpage">
-    <embed src="music/wedding.mp3" autostart="true" hidden="true" loop="true"/>
-    
+   
 		<div id="page-wrapper">
 			<!-- Header -->
 				<div id="header-wrapper">
@@ -67,50 +70,31 @@
 					<div id="content">
 						<div class="container">
 							<div class="row">
-							<div class="3u 12u(mobile)" style="text-align:center;">
+                            <div class="12u" style="text-align:center;">
                                 <section>
-                                <img src="images/wedchooda.jpg" border="0" alt="" width="225" height="125"/> <br /><br /><br /><br />
-                                <img src="images/wedtext1.jpg" border="0" alt="" /> <br /><br />
-                                <img src="images/wedbridetext1.png" alt="" width="225" height="125">
-                                <img src="images/wedkanyadaan.jpg" border="0" alt="" width="225" height="125"/> <br /><br /><br /><br />
-                                <img src="images/wedtext4.jpg" border="0" alt="" /> 
-                          
-                                </section>
-                            </div>
-                            <div class="3u 12u(mobile)" style="text-align:center;">
-								<section>
-                                  <img src="images/wedhaldi.jpg" border="0" alt="" width="225" height="125"/> <br /><br /><br /><br />
-                                  <img src="images/wedtext2.jpg" border="0" alt="" /> <br /><br />
-                                  <img src="images/wedwedstext1.png" alt="" width="225" height="125">
-                                  <img src="images/wedphere.jpg" border="0" alt="" width="225" height="125" /> <br /><br /><br /><br />
-                                  <img src="images/wedtext5.jpg" border="0" alt="" />
-                                </section>
-							</div>
-                            <div class="3u 12u(mobile)" style="text-align:center;">
-                                <section>
-                                <img src="images/wedvarmala.jpg" border="0" alt="" width="225" height="125"/> <br /><br /><br /><br />
-                                <img src="images/wedtext3.jpg" border="0" alt="" /> <br /><br />
-                                <img src="images/wedgroomtext1.png" alt="" width="225" height="125">
-                                <img src="images/weddoli.jpg" border="0" alt="" width="225" height="125" /> <br /><br /><br /><br />
-                                <img src="images/wedtext6.jpg" border="0" alt="" />
-                                </section>
-							</div>
-                            <div class="3u 12u(mobile)" style="text-align:center;">
-                                <section>
-                                  <p style="color:#FFFFFF;">The bride and the groom take the first step to pledge that they would provide a prospered living for the household or the family that they would look after and avoid those that might hinder their healthy living.
-                                  </p>
-                                  <p style="color:#33CCCC">The bride and the groom promise that they would develop their physical, mental and spiritual powers in order to lead a lifestyle that would be healthy.
-                                  </p>
-                                  <p style="color:#0099CC">The couple promises to earn a living and increase by righteous and proper means, so that their materialistic wealth increases manifold.
-                                  </p>
-                                 <p  style="color:#33CCCC">The married couple pledges to acquire knowledge,happiness and harmony by mutual love,respect,understanding & faith.
-                                  </p>
-                                   <p style="color:#FF9933">The fifth vow is taken to have expand their heredity by having children, for whom, they will be responsible. They also pray to be blessed with healthy, honest and brave children.
-                                  </p>
-                                  <p style="color:#0099CC">While taking the sixth step around the sacred fire, the bride and the groom pray for self-control of the mind, body and soul and longevity of their marital relationship.
-                                  </p>
-                                  <p style="color:#FFD700">When the bride and the groom take the seventh and the last vow, they promise that they would be true and loyal to each other and would remain companions and best of friends for the lifetime.
-                                  </p>
+                                <div id="banner-fadeWedding">
+                                                     <ul class="bjqs">
+                                                        <li>
+                                                            <img src="images/wedslide1.jpg" alt="" class="img-border"/></li>
+                                                        <li>
+                                                           <img src="images/wedslide2.png" alt="" class="img-border"/></li>
+                                                        <li>
+                                                           <img src="images/wedslide3.png" alt="" class="img-border"/></li>
+                                                         <li>
+                                                           <img src="images/wedslide4.png" alt="" class="img-border"/></li>
+                                                           <li>
+                                                            <img src="images/wedslide5.png" alt="" class="img-border"/></li>
+                                                        <li>
+                                                           <img src="images/wedslide6.png" alt="" class="img-border"/></li>
+                                                        <li>
+                                                           <img src="images/wedslide7.png" alt="" class="img-border"/></li>
+                                                    </ul>
+                                                    </div>
+                                                       <br /><br />
+                             <audio id="audioWedding">
+                                <source src="music/wedding.mp3" type="audio/mp3">
+                                <embed src="music/wedding.mp3" autostart="true" hidden="true" loop="true" />
+                            </audio>
                                 </section>
 							</div>
 							</div>
@@ -161,7 +145,11 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+              <script>
+                  jQuery(document).ready(function ($) {
+                      LoadAudioControl('audioWedding');
+                  });
+    </script>
 	</body>
     </form>
 </html>

@@ -4,13 +4,18 @@
 .top-1 {margin-top:31px;}
 .top-2 {margin-top:24px;}
 .top-3 {margin-top:14px;}
-.top-4 {margin-top:20px;}
-.top-5 {margin-top:5px;}
+.top-4 {margin-top:20px;color:#660033;}
+.top-5 {margin-top:5px;color:#CC0033;font-family:Times New Roman;text-align:justify;}
 .top-6 {margin-top:12px;}
 .top-7 {margin-top:24px;}
 .top-8 {margin-top:28px;}
 .top-9 {margin-top:20px;color:White!important;}
 .text20{color:White !important;}
+.text-3{font-size:20px !important;}
+.mehText1{color:#333300;font-family:Times New Roman;}
+.mehText2{color:#CC3300;font-family:Times New Roman;}
+.mehText3{color:#333300;font-family:Times New Roman;}
+.mehText4{color:#CC3300;font-family:Times New Roman;}
 .currentNavPage { color:#4C0B5F !important; font-weight:bold;}
 #id{font-size:22px;}
 /* Basic jQuery Slider essential styles */

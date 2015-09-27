@@ -21,7 +21,7 @@
     <script type="text/javascript" src="Scripts/Custom.js"></script>
 </head>
 <body>
-    <%--<embed src="music/home.mp3" autostart="true" hidden="true" loop="true" />--%>
+    
     <div id="page-wrapper">
         <!-- Header -->
         <div id="header-wrapper">
@@ -31,6 +31,7 @@
 
 						<!-- Logo -->
 							<h1><a href="Home.aspx" id="logo">Pradaya Weds Gaurav</a></h1>
+                            
 						<!-- Nav -->
 							<nav id="nav">
 								<a href="Chowki.aspx">Chowki</a>
@@ -39,9 +40,10 @@
                                 <a href="Mehandi.aspx">Mehandi</a>
 								<a href="Wedding.aspx">Wedding</a>
 							</nav>
-
+                             
 					</div>
 				</div>
+               
 			</header>
             <div id="banner">
                 <div class="container">
@@ -49,6 +51,7 @@
 
                         <div class="6u 12u(mobile)">
                             <!-- Banner Copy -->
+                             
                             <p style="font-size: 32px">
                                 Pradaya & Gaurav, you are two beautiful people,
                                            Now teamed as a man and a wife.
@@ -58,9 +61,9 @@
                                 Take a moment to enjoy all the special memories
                                            that you both will remember for the rest of your lives.
                             </p>
-                            <audio id="audioHome">
+                           <audio id="audioHome">
                                 <source src="music/home.mp3" type="audio/mp3">
-                                Your browser does not support the audio element.
+                               <embed src="music/home.mp3" autostart="true" hidden="true" loop="true" />
                             </audio>
                         </div>
                         <div class="6u 12u(mobile)">
@@ -185,6 +188,11 @@
     <script src="assets/js/util.js"></script>
     <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
     <script src="assets/js/main.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            LoadAudioControl('audioHome');
+        });
+    </script>
 
 </body>
 </html>

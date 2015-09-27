@@ -11,12 +11,13 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
         <link rel=Stylesheet href="Styles/Custom.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+          <script type="text/javascript" src="Scripts/Custom.js"></script>
 	</head>
     <form id="form1" runat="server">
 
 <html>
 	<body class="subpage">
-    <embed src="music/sangeet.mp3" autostart="true" hidden="true" loop="true"/>
+  
 		<div id="page-wrapper">
 			<!-- Header -->
 				<div id="header-wrapper">
@@ -52,6 +53,11 @@
                             <img src="images/sangeettext1.jpg" border="0" alt="" /><br /><br />
                             <img src="images/sangeet5.jpg" border="0" alt="" width="225" height="125"/><br /><br />
                             <img src="images/sangeettext5.jpg" border="0" alt="" />
+                              <br /><br />
+                                            <audio id="audioSangeet">
+                                <source src="music/sangeet.mp3" type="audio/mp3">
+                                <embed src="music/sangeet.mp3" autostart="true" hidden="true" loop="true" />
+                            </audio>
                             </section>
                             </div>
                             <div class="3u 12u(mobile)" style="text-align:center;">
@@ -126,7 +132,11 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+              <script>
+                  jQuery(document).ready(function ($) {
+                      LoadAudioControl('audioSangeet');
+                  });
+    </script>
 	</body>
     </form>
 </html>

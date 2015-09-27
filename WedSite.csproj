@@ -168,7 +168,7 @@
     <Content Include="PradayaWedsGaurav\Images\wedvarmala.JPG" />
     <Content Include="PradayaWedsGaurav\Images\wedwedstext.png" />
     <Content Include="PradayaWedsGaurav\Images\wedwedstext1.png" />
-    <Content Include="PradayaWedsGaurav\Wedding1.aspx" />
+    <Content Include="PradayaWedsGaurav\Wedding.aspx" />
     <Content Include="PradayaWedsGaurav\Engagement.aspx" />
     <Content Include="PradayaWedsGaurav\Home.aspx" />
     <Content Include="PradayaWedsGaurav\Mehandi.aspx" />
@@ -191,15 +191,15 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="PradayaWedsGaurav\Wedding.aspx" />
+    <Content Include="PradayaWedsGaurav\WeddingBackup.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PradayaWedsGaurav\Wedding1.aspx.cs">
-      <DependentUpon>Wedding1.aspx</DependentUpon>
+    <Compile Include="PradayaWedsGaurav\Wedding.aspx.cs">
+      <DependentUpon>Wedding.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="PradayaWedsGaurav\Wedding1.aspx.designer.cs">
-      <DependentUpon>Wedding1.aspx</DependentUpon>
+    <Compile Include="PradayaWedsGaurav\Wedding.aspx.designer.cs">
+      <DependentUpon>Wedding.aspx</DependentUpon>
     </Compile>
     <Compile Include="PradayaWedsGaurav\Engagement.aspx.cs">
       <DependentUpon>Engagement.aspx</DependentUpon>
@@ -237,12 +237,12 @@
     <Compile Include="PradayaWedsGaurav\Sangeet.aspx.designer.cs">
       <DependentUpon>Sangeet.aspx</DependentUpon>
     </Compile>
-    <Compile Include="PradayaWedsGaurav\Wedding.aspx.cs">
-      <DependentUpon>Wedding.aspx</DependentUpon>
+    <Compile Include="PradayaWedsGaurav\WeddingBackup.aspx.cs">
+      <DependentUpon>WeddingBackup.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="PradayaWedsGaurav\Wedding.aspx.designer.cs">
-      <DependentUpon>Wedding.aspx</DependentUpon>
+    <Compile Include="PradayaWedsGaurav\WeddingBackup.aspx.designer.cs">
+      <DependentUpon>WeddingBackup.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
