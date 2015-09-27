@@ -1,0 +1,5 @@
+D:\Personal\WedSite\bin\WedSite.dll
+D:\Personal\WedSite\bin\WedSite.pdb
+D:\Personal\WedSite\obj\Release\WedSite.csprojResolveAssemblyReference.cache
+D:\Personal\WedSite\obj\Release\WedSite.dll
+D:\Personal\WedSite\obj\Release\WedSite.pdb

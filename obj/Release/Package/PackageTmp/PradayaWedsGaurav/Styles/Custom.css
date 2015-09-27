@@ -1,0 +1,30 @@
+﻿.p-border {border-bottom:#dddddd 1px solid; padding-bottom:15px;} 
+.img-border {border:#dddddd 1px solid;}
+.box-2 {float:left; width:30%; margin-right:10px;}
+.top-1 {margin-top:31px;}
+.top-2 {margin-top:24px;}
+.top-3 {margin-top:14px;}
+.top-4 {margin-top:20px;}
+.top-5 {margin-top:5px;}
+.top-6 {margin-top:12px;}
+.top-7 {margin-top:24px;}
+.top-8 {margin-top:28px;}
+.top-9 {margin-top:20px;color:White!important;}
+.text20{color:White !important;}
+.currentNavPage { color:#4C0B5F !important; font-weight:bold;}
+#id{font-size:22px;}
+/* Basic jQuery Slider essential styles */
+
+ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none;}
+li.bjqs-slide{position:absolute; display:none;}
+ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;}
+ul.bjqs-controls.v-centered li a{position:absolute;}
+ul.bjqs-controls.v-centered li.bjqs-next a{right:0;}
+ul.bjqs-controls.v-centered li.bjqs-prev a{left:0;}
+ol.bjqs-markers{list-style: none; padding: 0; margin: 0; width:100%;}
+ol.bjqs-markers.h-centered{text-align: center;display:none;}
+ol.bjqs-markers li{display:inline;}
+ol.bjqs-markers li a{display:inline-block;}
+p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0;}
+.bjqs-prev{display:none;}
+.bjqs-next {display:none;}

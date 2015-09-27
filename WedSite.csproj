@@ -173,6 +173,7 @@
     <None Include="PradayaWedsGaurav\Assets\sass\libs\_skel.scss" />
     <None Include="PradayaWedsGaurav\Assets\sass\libs\_vars.scss" />
     <None Include="PradayaWedsGaurav\Assets\sass\main.scss" />
+    <None Include="Properties\PublishProfiles\myWindowsHosting.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
